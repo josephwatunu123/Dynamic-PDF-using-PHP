@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+
+    <title>PDF Template</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        margin: 0;
+    }
+    h1 {
+        color: green;
+        margin-bottom: 20px; /* Adjust as needed */
+    }
+    p {
+        margin: 5px 0; /* Adjust spacing between p elements as needed */
+    }
+</style>
+<body>
+    <h1 style="color: green;">Company Co</h1>
+
+    <p>Length: {{ length }}</p>
+    <p>Width: {{ width }}</p>
+    <p>Quantity: {{ quantity }}</p>
+</body>
+</html>
